@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Resources | MHS Student Council</title>
+<meta name="description" content="Committees, forms, and resources for Mamaroneck High School Student Council." />
+<link rel="icon" href="assets/img/logo/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css?v=24" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/img/logo/logo.png" alt="MHS Stuco logo" />
+      <span class="wordmark"><strong>MHS Stuco</strong><span>Mamaroneck High School</span></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="officers.html">Officers</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+  <div class="page-header" style="background-image:url('assets/img/hero/resources-header.jpg');background-position:center 12%">
+    <div class="page-header-overlay"></div>
+    <div class="page-tag-row"><div class="wrap"><span class="page-tag">Committees &amp; resources</span></div></div>
+    <div class="wrap">
+      <h1>Resources</h1>
+      <p>How Stuco is organized, and the forms and documents you need to get involved.</p>
+    </div>
+  </div>
+
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Committees</h2>
+          <p>These committees are extensions of Student Council in one way or another, here to support students at MHS.</p>
+        </div>
+      </div>
+      <div class="card-list" id="committeesContainer"></div>
+    </div>
+  </section>
+
+  <section class="section section--panel">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Forms &amp; Resources</h2>
+          <p>Forms for fundraising and grants, meeting minutes from school clubs, and Stuco's governing documents, all in one place.</p>
+        </div>
+      </div>
+      <div class="resource-grid" id="resourcesGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>&copy; <span id="year"></span> Mamaroneck High School Student Council</span>
+    <span>Built by Student Council.</span>
+  </div>
+</footer>
+
+<script src="js/data.js?v=36"></script>
+<script src="js/main.js?v=25"></script>
+</body>
+</html>

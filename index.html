@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MHS Student Council | Mamaroneck High School</title>
+<meta name="description" content="Official site of the Mamaroneck High School Student Council, with news, events, officers, and ways to get involved." />
+<link rel="icon" href="assets/img/logo/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css?v=24" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/img/logo/logo.png" alt="MHS Stuco logo" />
+      <span class="wordmark"><strong>MHS Stuco</strong><span>Mamaroneck High School</span></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="officers.html">Officers</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div id="heroSlides"></div>
+    <div class="page-tag-row"><div class="wrap"><span class="page-tag">Mamaroneck High School</span></div></div>
+    <div class="hero-caption">
+      <div class="wrap">
+        <h1>Student Council</h1>
+        <p>Student government at Mamaroneck High School.</p>
+        <div class="hero-actions">
+          <a href="officers.html" class="btn btn--primary">Meet Your Officers</a>
+          <a href="contact.html" class="btn btn--outline">Get in Touch</a>
+        </div>
+        <p class="hero-photo-caption" id="heroPhotoCaption"></p>
+      </div>
+    </div>
+    <div class="hero-dots" id="heroDots"></div>
+  </section>
+
+  <!-- NEWS / WEEK AHEAD / VIDEO -->
+  <section class="section" id="news">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>News &amp; Updates</h2>
+          <p>The latest from Student Council, what's happening this week, and Monday's announcement video.</p>
+        </div>
+      </div>
+
+      <div class="news-grid">
+        <div class="news-list" id="newsList"></div>
+
+        <div class="side-col">
+          <div class="video-panel">
+            <div class="video-frame" id="videoFrame"></div>
+            <div class="video-panel-body">
+              <h3 id="videoTitle">The Week Ahead</h3>
+              <p>MHS's weekly informational video, shown schoolwide every Monday morning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-bar">
+    <div class="wrap">
+      <div class="stats-grid" id="statsGrid"></div>
+    </div>
+  </section>
+
+  <!-- QUICK LINKS -->
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2>Where to Go</h2>
+        </div>
+      </div>
+      <div class="quicklink-grid">
+        <a class="quicklink-card" href="officers.html">
+          <h3>Officers <span class="arrow">→</span></h3>
+          <p>Meet the Executive Board and class representatives.</p>
+        </a>
+        <a class="quicklink-card" href="events.html">
+          <h3>Events <span class="arrow">→</span></h3>
+          <p>Dances, fundraisers, and everything on the calendar.</p>
+        </a>
+        <a class="quicklink-card" href="resources.html">
+          <h3>Resources <span class="arrow">→</span></h3>
+          <p>Committees, forms, and how to get involved.</p>
+        </a>
+        <a class="quicklink-card" href="gallery.html">
+          <h3>Gallery <span class="arrow">→</span></h3>
+          <p>Photos from pep rallies, field day, and more.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>&copy; <span id="year"></span> Mamaroneck High School Student Council</span>
+    <span>Built by Student Council.</span>
+  </div>
+</footer>
+
+<script src="js/data.js?v=36"></script>
+<script src="js/main.js?v=25"></script>
+</body>
+</html>
