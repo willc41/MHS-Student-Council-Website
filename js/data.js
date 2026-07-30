@@ -14,7 +14,7 @@ const STUCO_DATA = {
   // Add a "logo" field (e.g. "assets/img/social/jungle.jpg") to show a real
   // logo image instead of the category icon.
   social: [
-    { handle: "MamaroneckHS_StudentCouncil", platform: "YouTube", label: "The Week Ahead, our weekly video", logo: "assets/img/logo/logo.png" },
+    { handle: "MamaroneckHS_StudentCouncil", platform: "YouTube", label: "Our weekly video, The Week Ahead", logo: "assets/img/logo/logo.png" },
     { handle: "mhs27stuco", platform: "Instagram", label: "Class of 2027 Student Council", logo: "assets/img/social/mhs27stuco.jpg" },
     { handle: "mhs_stuco28", platform: "Instagram", label: "Class of 2028 Student Council", logo: "assets/img/social/mhs_stuco28.jpg" },
     { handle: "mhsvarsitysports", platform: "Instagram", label: "MHS Varsity Sports, The Jungle", logo: "assets/img/social/mhsvarsitysports.jpg" },
