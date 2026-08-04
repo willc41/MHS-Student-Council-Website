@@ -801,6 +801,10 @@ h1 {
 .empty-state h3 { font-size: 17px; font-weight: 600; color: var(--color-ink); margin-bottom: 8px; }
 
 /* ===== Committees (light tone, left-bar accent) ===== */
+.mission-block { margin-bottom: 28px; }
+.mission-block h2 { font-size: clamp(24px, 3vw, 34px); margin-bottom: 14px; }
+.mission-block p { max-width: 680px; color: var(--color-gray-700); font-size: 15px; line-height: 1.65; }
+
 .card-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
