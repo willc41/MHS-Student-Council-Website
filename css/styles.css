@@ -817,7 +817,7 @@ h1 {
 /* ===== Committees (light tone, left-bar accent) ===== */
 .mission-block { margin-bottom: 28px; }
 .mission-block h2 { font-size: clamp(24px, 3vw, 34px); margin-bottom: 14px; }
-.mission-block p { max-width: 680px; color: var(--color-gray-700); font-size: 15px; line-height: 1.65; }
+.mission-block p { color: var(--color-gray-700); font-size: 15px; line-height: 1.65; }
 
 .card-list {
   display: grid;
