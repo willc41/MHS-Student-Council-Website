@@ -66,7 +66,7 @@ const STUCO_DATA = {
     exec: {
       label: "Executive Board",
       members: [
-        { name: "William Cohen", role: "President", photo: "assets/img/officers/william-cohen.jpg", years: 2, bio: "2 years on Student Council" },
+        { name: "William Cohen", role: "President", photo: "assets/img/officers/william-cohen.jpg", years: 2, bio: "This is my second year on Student Council. Last year, I served as Vice President of the Executive Board and Head of Communications, where I led The Week Ahead and ran MHS's social media. Outside of Student Council, I'm going into my fourth year on the golf team, which I captain. I'm also the founder of Mamaroneck Student Capital, a nonprofit connected to our investment club that I've been part of since freshman year. Separately, I run a mentorship program called Finding Fairways. I'm beyond excited to serve as President this year." },
         { name: "Owen Riter", role: "Vice President", photo: "assets/img/officers/owen-riter.jpg", years: 3, bio: "3 years on Student Council" },
         { name: "Greta Weiland", role: "Vice President", photo: "assets/img/officers/greta-weiland.jpg", years: 4, bio: "4 years on Student Council" },
         { name: "Olivia Perez", role: "Vice President", photo: "assets/img/officers/olivia-perez.jpg", years: 3, bio: "3 years on Student Council" },
