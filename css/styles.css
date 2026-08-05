@@ -549,7 +549,7 @@ h1 {
   transition: max-height 0.3s ease, margin-top 0.3s ease, padding-top 0.3s ease;
 }
 .officer-card.is-open .officer-bio {
-  max-height: 240px;
+  max-height: 700px;
   margin-top: 14px;
   padding-top: 14px;
   border-top: 1px solid var(--color-gray-300);
