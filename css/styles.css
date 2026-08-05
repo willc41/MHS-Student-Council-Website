@@ -534,7 +534,8 @@ h1 {
   border-color: var(--color-orange);
 }
 .officer-card.is-open {
-  transform: scale(1.04);
+  grid-column: span 2;
+  transform: scale(1.02);
   box-shadow: var(--shadow-soft);
   border-color: var(--color-orange);
   z-index: 2;
