@@ -381,12 +381,13 @@ if (eventsContainer) {
       if (!el) return;
       const evt = eventsByDate.get(el.dataset.date)[Number(el.dataset.idx)];
       const [y, m, d] = evt.date.split("-").map(Number);
-      eventModalDate.textContent = new Date(y, m - 1, d).toLocaleDateString("en-US", {
+      const dateStr = new Date(y, m - 1, d).toLocaleDateString("en-US", {
         weekday: "long",
         month: "long",
         day: "numeric",
         year: "numeric",
       });
+      eventModalDate.textContent = evt.time ? `${dateStr} at ${evt.time}` : dateStr;
       eventModalTitle.textContent = evt.title;
       eventModalLocation.textContent = evt.location || "";
       eventModalLocation.style.display = evt.location ? "block" : "none";

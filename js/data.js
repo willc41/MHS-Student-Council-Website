@@ -60,6 +60,41 @@ const STUCO_DATA = {
       title: "First day of school! Freshman orientation",
       description: "Student Council will be helping out with some first day and orientation activities.",
     },
+    {
+      date: "2026-09-03",
+      time: "6:00 PM",
+      title: "Football Game (Theme TBD)",
+      location: "Home",
+      description: "MHS Tigers vs. Somers MHS.",
+    },
+    {
+      date: "2026-09-25",
+      time: "6:00 PM",
+      title: "Football Game (Theme TBD)",
+      location: "Home",
+      description: "MHS Tigers vs. Scarsdale MHS.",
+    },
+    {
+      date: "2026-10-02",
+      time: "6:00 PM",
+      title: "Football Game (Theme TBD)",
+      location: "Home",
+      description: "MHS Tigers vs. North Rockland MHS.",
+    },
+    {
+      date: "2026-10-09",
+      time: "6:00 PM",
+      title: "Football Game (Theme TBD)",
+      location: "Home",
+      description: "MHS Tigers vs. New Rochelle MHS.",
+    },
+    {
+      date: "2026-10-24",
+      time: "1:30 PM",
+      title: "Football Game (Theme TBD)",
+      location: "Home",
+      description: "MHS Tigers vs. Suffern MHS.",
+    },
   ],
 
   officers: {
