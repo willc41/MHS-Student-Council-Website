@@ -117,7 +117,7 @@ const STUCO_DATA = {
           { name: "Jared Barrios", role: "Vice President", photo: "assets/img/officers/jared-barrios.jpg", years: 1, bio: "1 year on Student Council" },
           { name: "Christina Mason", role: "Treasurer", photo: "assets/img/officers/christina-mason.jpg", years: 1, bio: "1 year on Student Council" },
           { name: "Mark Lebowitz", role: "Class Representative", photo: "assets/img/officers/mark-lebowitz.jpg", years: 4, bio: "4 years on Student Council" },
-          { name: "Cleo Ingalls", role: "Class Representative", photo: "assets/img/officers/cleo-ingalls.jpg", years: 4, bio: "4 years on Student Council" },
+          { name: "Cleo Ingalls", role: "Class Representative", photo: "assets/img/officers/cleo-ingalls.jpg", years: 4, bio: "For the past two years, I have had the pleasure of serving as class representative. This will be my third year on Student Council and I am very excited! In addition to Student Council, I am the captain of the cross country team and a member of the track and field team, where I run long distance and throw javelin, shot put, and discus. Additionally, I am the president of MHS's Jewish Student Union, Midnight Run club, and badminton group, as well as a member of the yearbook committee. Outside of school, I am a member of the Larchmont Public Library's teen leadership board. In my free time, I love to run, spend time outdoors, and hang out with friends." },
           { name: "Garrett Clarke", role: "Class Representative", photo: "assets/img/officers/garrett-clarke.jpg", years: 1, bio: "1 year on Student Council" },
           { name: "Sadie Bilik", role: "Class Representative", photo: "assets/img/officers/sadie-bilik.jpg", years: 4, bio: "4 years on Student Council" },
         ],
@@ -127,7 +127,7 @@ const STUCO_DATA = {
         members: [
           { name: "Sonya Prozes", role: "President", photo: "assets/img/officers/sonya-prozes.jpg", years: 3, bio: "3 years on Student Council" },
           { name: "Maya Schein", role: "Vice President", photo: "assets/img/officers/maya-schein.jpg", years: 2, bio: "2 years on Student Council" },
-          { name: "Augustas Rastenis", role: "Treasurer", photo: "assets/img/officers/augustas-rastenis.jpg", years: 2, bio: "2 years on Student Council" },
+          { name: "Augustas Rastenis", role: "Treasurer", photo: "assets/img/officers/augustas-rastenis.jpg", years: 2, bio: "This will be my second year on Student Council, and I am so glad to have the opportunity to help MHS as the Class of 2028's treasurer. I look forward to being able to make great events like Battle of the Classes possible and making this year the best it can be. I am also a part of our school's band, and also in the club Model UN. Outside of school I love to fish and spend time with friends. I hope to do the best I can as treasurer, and I hope everyone enjoys the great school year." },
           { name: "Annabelle Balagot", role: "Class Representative", photo: "assets/img/officers/annabelle-balagot.jpg", years: 1, bio: "1 year on Student Council" },
           { name: "Noelle Curry", role: "Class Representative", photo: "assets/img/officers/noelle-curry.jpg", years: 1, bio: "1 year on Student Council" },
           { name: "George Haines", role: "Class Representative", photo: "assets/img/officers/george-haines.jpg", years: 3, bio: "3 years on Student Council" },
