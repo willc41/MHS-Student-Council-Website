@@ -56,6 +56,11 @@ const STUCO_DATA = {
 
   events: [
     {
+      date: "2026-10-07",
+      title: "Student Club Fair",
+      description: "Held at lunch. Mark your calendars!",
+    },
+    {
       date: "2026-09-02",
       title: "First day of school! Freshman orientation",
       description: "Student Council will be helping out with some first day and orientation activities.",
@@ -142,7 +147,7 @@ const STUCO_DATA = {
           { name: "Michal Vaculin", role: "Treasurer", photo: "assets/img/officers/michal-vaculin.jpg", years: 1, bio: "1 year on Student Council" },
           { name: "Sloane Irwin", role: "Class Representative", photo: "assets/img/officers/sloane-irwin.jpg", years: 2, bio: "2 years on Student Council" },
           { name: "Jeevan Gupta", role: "Class Representative", photo: "assets/img/officers/jeevan-gupta.jpg", years: 1, bio: "1 year on Student Council" },
-          { name: "Matthew Bernhardt", role: "Class Representative", photo: "assets/img/officers/matthew-bernhardt.jpg", years: 1, bio: "1 year on Student Council" },
+          { name: "Matthew Bernhardt", role: "Class Representative", photo: "assets/img/officers/matthew-bernhardt.jpg", years: 1, bio: "I'm a first-year Student Council member, serving as a Class of 2029 Representative, and I'm super excited to be part of it! I play basketball for the school and want to help make our school a fun and better place for everyone. Looking forward to a great year!" },
           { name: "Jaylah Soto", role: "Class Representative", photo: "assets/img/officers/jaylah-soto.jpg", years: 1, bio: "1 year on Student Council" },
           { name: "Charles Zmuda", role: "Class Representative", photo: "assets/img/officers/charles-zmuda.jpg", years: 1, bio: "1 year on Student Council" },
         ],
