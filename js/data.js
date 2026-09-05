@@ -31,7 +31,6 @@ const STUCO_DATA = {
     { src: "assets/img/hero/hero-03.jpg", caption: "Senior Citizen Prom" },
     { src: "assets/img/hero/hero-08.jpg", caption: "Tiger 5s Volleyball" },
     { src: "assets/img/hero/hero-01.jpg", caption: "Fall Pep Rally Warmups" },
-    { src: "assets/img/hero/hero-06.jpg", caption: "Spirit Week, Themed Days", focus: "center 15%" },
     { src: "assets/img/hero/hero-07.jpg", caption: "Tiger 5s Students vs. Teachers Champions" },
   ],
 
