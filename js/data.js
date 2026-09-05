@@ -28,7 +28,7 @@ const STUCO_DATA = {
   // actually happening in each photo, or swap the photos entirely.
   heroCarousel: [
     { src: "assets/img/hero/hero-04.jpg", caption: "Senior Barbecue" },
-    { src: "assets/img/hero/hero-09.jpg", caption: "2026 Senior Sunrise" },
+    { src: "assets/img/hero/hero-09.jpg", caption: "2026 Senior Sunrise", focus: "center 85%" },
     { src: "assets/img/hero/hero-10.jpg", caption: "First Football Game of the Season" },
     { src: "assets/img/hero/hero-03.jpg", caption: "Senior Citizen Prom" },
     { src: "assets/img/hero/hero-08.jpg", caption: "Tiger 5s Volleyball" },
