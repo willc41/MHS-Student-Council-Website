@@ -424,14 +424,19 @@ const committeesContainer = document.getElementById("committeesContainer");
 if (committeesContainer) {
   committeesContainer.innerHTML = STUCO_DATA.committees
     .map((c) => {
-      const leadHTML = c.email ? `<a href="mailto:${c.email}">${c.lead}</a>` : c.lead;
+      const leadHTML = c.leads
+        ? c.leads.map((l) => (l.email ? `<a href="mailto:${l.email}">${l.name}</a>` : l.name)).join(", ")
+        : c.email
+        ? `<a href="mailto:${c.email}">${c.lead}</a>`
+        : c.lead;
+      const leadLabel = c.leads && c.leads.length > 1 ? "Leads" : "Lead";
       return `
     <div class="accent-card">
       <h3>${c.name}</h3>
       <p>${c.description}</p>
       <div class="meta-row">
         ${c.cadence ? `<span class="meta">${c.cadence}</span>` : ""}
-        <span class="meta">Lead: ${leadHTML}</span>
+        <span class="meta">${leadLabel}: ${leadHTML}</span>
       </div>
     </div>`;
     })

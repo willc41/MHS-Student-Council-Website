@@ -57,11 +57,6 @@ const STUCO_DATA = {
       title: "Welcome to the new MHS Stuco site",
       body: "This site is where you'll find Stuco news, events, officers, and how to reach us.",
     },
-    {
-      date: "2026-06-01",
-      title: "Officer elections wrapped up for 2026/2027",
-      body: "See the Officers page for more information.",
-    },
   ],
 
   events: [
@@ -215,15 +210,19 @@ const STUCO_DATA = {
     {
       name: "DEIB Committee",
       cadence: "Meets biweekly",
-      lead: "Jack Ilardo",
-      email: "jilardo@student.mamkschools.org",
+      leads: [
+        { name: "Jack Ilardo", email: "jilardo@student.mamkschools.org" },
+        { name: "Elyse Murdoch", email: "emurdoch@student.mamkschools.org" },
+      ],
       description: "Diversity, Equity, Inclusion, and Belonging",
     },
     {
       name: "Social Events Committee",
       cadence: "Meets monthly",
-      lead: "Owen Riter",
-      email: "oriter@student.mamkschools.org",
+      leads: [
+        { name: "Greta Norman", email: "gnorman@student.mamkschools.org" },
+        { name: "Nick Laboy", email: "nilaboy@student.mamkschools.org" },
+      ],
       description: "Plans events like the spelling bee for the student body",
     },
     {
@@ -263,7 +262,7 @@ const STUCO_DATA = {
     {
       title: "Meeting Minutes Form",
       subtitle: "Report minutes from your clubs meeting",
-      href: "#",
+      href: "https://docs.google.com/forms/d/e/1FAIpQLScuwZTOlQoV5kfSQ4--DVzyp-F29I3tfryLYFoBBeBpNgzB-w/viewform",
     },
     {
       title: "Student Council Constitution and Bylaws",
