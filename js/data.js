@@ -38,7 +38,7 @@ const STUCO_DATA = {
   // Weekly Monday-morning announcement video. Swap the youtubeId each week.
   weeklyVideo: {
     title: "The Week Ahead",
-    youtubeId: "tmNDAtcdMdg",
+    youtubeId: "Vgmc_YZtkVg",
   },
 
   news: [
