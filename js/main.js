@@ -129,11 +129,13 @@ if (videoFrame) {
     // available (YouTube-side processing delay, not a settings issue).
     // Linking out to the real video avoids showing visitors a broken
     // player in the meantime. Switch this back to a real <iframe> once
-    // the embed is confirmed working.
+    // the embed is confirmed working. Thumbnail is a hand picked frame
+    // (assets/img/video-thumbnail.jpg) rather than YouTube's auto
+    // generated one, which is a blank gray frame for this video.
     const id = STUCO_DATA.weeklyVideo.youtubeId;
     videoFrame.innerHTML = `
       <a class="video-fallback" href="https://youtube.com/watch?v=${id}" target="_blank" rel="noopener">
-        <img src="https://img.youtube.com/vi/${id}/maxresdefault.jpg" alt="${STUCO_DATA.weeklyVideo.title} thumbnail" onerror="this.onerror=null;this.src='https://img.youtube.com/vi/${id}/hqdefault.jpg'" />
+        <img src="assets/img/video-thumbnail.jpg" alt="${STUCO_DATA.weeklyVideo.title} thumbnail" />
         <span class="video-fallback-play">&#9658;</span>
         <span class="video-fallback-label">Watch on YouTube</span>
       </a>`;
