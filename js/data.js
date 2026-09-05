@@ -198,10 +198,10 @@ const STUCO_DATA = {
     ],
   },
 
-  // Curated event photos, assets/img/gallery/gallery-01.jpg .. gallery-31.jpg
+  // Curated event photos, assets/img/gallery/gallery-01.jpg .. gallery-49.jpg
   // gallery-01.jpg is used as the Gallery page header photo, so it's
   // excluded here to avoid showing it twice.
-  gallery: Array.from({ length: 30 }, (_, i) => {
+  gallery: Array.from({ length: 48 }, (_, i) => {
     const n = String(i + 2).padStart(2, "0");
     return { src: `assets/img/gallery/gallery-${n}.jpg`, alt: `MHS Stuco event photo ${n}` };
   }),
