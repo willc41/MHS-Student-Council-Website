@@ -1034,8 +1034,8 @@ h1 {
   .stat-card { border-left: none; border-top: 1px solid var(--color-gray-300); }
   .stat-card:first-child { border-top: none; }
   .quicklink-grid { grid-template-columns: 1fr 1fr; }
-  .resource-grid { grid-template-columns: repeat(2, 1fr); }
-  .card-list { grid-template-columns: repeat(2, 1fr); }
+  .resource-grid { grid-template-columns: 1fr; }
+  .card-list { grid-template-columns: 1fr; }
   .officer-grid { grid-template-columns: repeat(2, 1fr); }
   .officer-card.is-open { grid-column: span 2; }
   .officer-card { padding: 16px 10px; }
