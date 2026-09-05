@@ -100,6 +100,39 @@ const STUCO_DATA = {
       location: "Home",
       description: "Mamaroneck vs. Suffern.",
     },
+    {
+      date: "2026-09-10",
+      title: "Freshman Stuco Interest Meeting",
+    },
+    {
+      date: "2026-09-22",
+      title: "Tiger 5s Soccer",
+      location: "Memorial Field",
+    },
+    {
+      date: "2026-09-23",
+      title: "Tiger 5s Soccer",
+      location: "Memorial Field",
+    },
+    {
+      date: "2026-09-24",
+      title: "Tiger 5s Soccer",
+      location: "Memorial Field",
+    },
+    {
+      date: "2026-09-24",
+      title: "Back to School Night",
+    },
+    {
+      date: "2026-09-25",
+      title: "Freshman Stuco Election",
+      location: "Auditorium",
+      description: "At lunch.",
+    },
+    {
+      date: "2026-10-09",
+      title: "Fall Pep Rally",
+    },
   ],
 
   officers: {
