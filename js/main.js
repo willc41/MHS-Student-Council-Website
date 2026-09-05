@@ -336,7 +336,7 @@ if (eventsContainer) {
         return `
         <div class="calendar-day${isOutside ? " is-outside" : ""}${isToday ? " is-today" : ""}${
           viewMode === "week" ? " is-week" : ""
-        }">
+        }${dayEvents.length ? " has-events" : ""}" data-day-date="${key}">
           <div class="calendar-day-number">${date.getDate()}</div>
           <div class="calendar-day-events">${eventsHTML}</div>
         </div>`;
@@ -377,22 +377,34 @@ if (eventsContainer) {
 
   if (eventModal) {
     gridEl.addEventListener("click", (e) => {
-      const el = e.target.closest(".calendar-event");
-      if (!el) return;
-      const evt = eventsByDate.get(el.dataset.date)[Number(el.dataset.idx)];
-      const [y, m, d] = evt.date.split("-").map(Number);
+      const dayEl = e.target.closest(".calendar-day");
+      if (!dayEl) return;
+      const key = dayEl.dataset.dayDate;
+      const dayEvents = eventsByDate.get(key) || [];
+      if (!dayEvents.length) return;
+      const [y, m, d] = key.split("-").map(Number);
       const dateStr = new Date(y, m - 1, d).toLocaleDateString("en-US", {
         weekday: "long",
         month: "long",
         day: "numeric",
         year: "numeric",
       });
-      eventModalDate.textContent = evt.time ? `${dateStr} at ${evt.time}` : dateStr;
-      eventModalTitle.textContent = evt.title;
-      eventModalLocation.textContent = evt.location || "";
-      eventModalLocation.style.display = evt.location ? "block" : "none";
-      eventModalDescription.textContent = evt.description || "";
-      eventModalDescription.style.display = evt.description ? "block" : "none";
+      eventModalDate.textContent = dateStr;
+      eventModalTitle.textContent = "";
+      eventModalLocation.style.display = "none";
+      eventModalDescription.style.display = "none";
+      eventModalDescription.innerHTML = dayEvents
+        .map(
+          (evt) => `
+        <div class="event-modal-item">
+          <h3>${evt.title}</h3>
+          ${evt.time ? `<div class="event-modal-location">${evt.time}</div>` : ""}
+          ${evt.location ? `<div class="event-modal-location">${evt.location}</div>` : ""}
+          ${evt.description ? `<p>${evt.description}</p>` : ""}
+        </div>`
+        )
+        .join("");
+      eventModalDescription.style.display = "block";
       eventModal.classList.add("is-open");
     });
     document.getElementById("eventModalClose").addEventListener("click", () => eventModal.classList.remove("is-open"));
