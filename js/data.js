@@ -43,6 +43,16 @@ const STUCO_DATA = {
 
   news: [
     {
+      date: "2026-09-05",
+      title: "Freshman Class Election on September 25",
+      body: "Freshmen, head to the auditorium at lunch on Friday, September 25 to vote in your class election.",
+    },
+    {
+      date: "2026-09-05",
+      title: "Tiger 5s Soccer, September 22 to 24",
+      body: "Come cheer on Tiger 5s Soccer at Memorial Field, running September 22 through 24.",
+    },
+    {
       date: "2026-07-20",
       title: "Welcome to the new MHS Stuco site",
       body: "This site is where you'll find Stuco news, events, officers, and how to reach us.",
