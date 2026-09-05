@@ -204,7 +204,7 @@ const STUCO_DATA = {
   gallery: Array.from({ length: 48 }, (_, i) => {
     const n = String(i + 2).padStart(2, "0");
     return { src: `assets/img/gallery/gallery-${n}.jpg`, alt: `MHS Stuco event photo ${n}` };
-  }),
+  }).reverse(),
 
   committees: [
     {
