@@ -175,7 +175,7 @@ const STUCO_DATA = {
           { name: "Annabelle Balagot", role: "Class Representative", photo: "assets/img/officers/annabelle-balagot.jpg", years: 2, bio: "This is my second year on Student Council as a representative, and I'm looking forward to helping plan events and make our school a great place for everyone. Outside of Student Council, I'm involved in our school as a member of the varsity girls lacrosse team, Sports Head of the yearbook, and a producer on MHS Info. Outside of school, I intern at Proclinix Physical Therapy and participate in club gymnastics. I'm excited to get to know different parts of my school community, meet new people, and make this a great year at MHS!" },
           { name: "Noelle Curry", role: "Class Representative", photo: "assets/img/officers/noelle-curry.jpg", years: 1, bio: "1 year on Student Council" },
           { name: "George Haines", role: "Class Representative", photo: "assets/img/officers/george-haines.jpg", years: 3, bio: "3 years on Student Council" },
-          { name: "Madelyn Dunphy", role: "Class Representative", photo: "assets/img/officers/madelyn-dunphy.jpg", years: 1, bio: "1 year on Student Council" },
+          { name: "Madelyn Dunphy", role: "Class Representative", photo: "assets/img/officers/madelyn-dunphy.jpg", years: 1, bio: "I'm Maddie Dunphy and I'm so excited to be a first year student council representative! I'm looking forward to meeting new people, getting involved in school activities, and helping make our school an even better place. I'm grateful for the opportunity to represent my classmates and can't wait to see what this year has to offer!" },
         ],
       },
       {
