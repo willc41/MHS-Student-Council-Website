@@ -20,7 +20,7 @@ for FILE in js/data.js js/main.js css/styles.css; do
 done
 
 git add -A
-git commit -m "$MSG"
+git commit -m "$(printf '%s\n\nCo-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>' "$MSG")"
 git push
 
 echo ""
