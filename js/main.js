@@ -165,6 +165,11 @@ const officerCard = (member, isLead = false) => `
     }</div>
     <h4>${member.name}${member.bio ? ` <span class="officer-chevron">▾</span>` : ""}</h4>
     <div class="role">${member.role}</div>
+    ${
+      member.attendance != null
+        ? `<div class="officer-attendance">${member.attendance}/${STUCO_DATA.officers.meetingsHeld} meetings</div>`
+        : ""
+    }
     ${member.bio ? `<p class="officer-bio">${member.bio}</p>` : ""}
   </div>`;
 

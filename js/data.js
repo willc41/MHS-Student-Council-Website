@@ -142,6 +142,9 @@ const STUCO_DATA = {
   ],
 
   officers: {
+    // Bump this after every meeting, then add/update each member's
+    // "attendance" count below (meetings they attended out of this total).
+    meetingsHeld: 2,
     exec: {
       label: "Executive Board",
       members: [

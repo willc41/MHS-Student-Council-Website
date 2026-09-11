@@ -609,6 +609,17 @@ h1 {
   text-transform: uppercase;
   color: var(--color-gray-500);
 }
+.officer-attendance {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  background: var(--color-gray-100);
+  border: 1px solid var(--color-gray-300);
+  color: var(--color-gray-700);
+}
 .officer-card.is-lead .officer-avatar {
   width: 64px;
   height: 64px;
